@@ -5,6 +5,7 @@ library(gridExtra)
 library(scales)
 library(latexpdf)
 library(readxl)
+library(parallel)
 
 
 AMOTIZACIONES <- read_excel("Lineas.xlsx") %>% 
